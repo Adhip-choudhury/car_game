@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Car game</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+#background{
+
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-cool-racing-texture-runway-passion-background-image_211571.jpg);
+    background-position: center;
+     background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+
+.center{
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+</style>
+<body id="background" onload="add()">
+    <center>
+<h1 class="center">Car Race</h1>
+<canvas id="myCanvas" width="800" height="600"></canvas>
+<h4>
+	<br>
+	<b id="center"  class="text-danger">NOTE : </b> IF ROVER IS NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+</center>
+</body>
+<script src="main.js"> </script>
+
+
+</html>
